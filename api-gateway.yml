@@ -1,12 +1,12 @@
 server:
   port: 8765
 
-# zuul:
-#   routes:
-#     order-service: /api/order/**
-#     product-service: /api/product/**
-#     shipping-service: /api/shipping/**
-#     inventory-service: /api/inventory/**
+zuul:
+  routes:
+    order-service: /api/order/**
+    product-service: /api/product/**
+    shipping-service: /api/shipping/**
+    inventory-service: /api/inventory/**
 
 eureka:
   client:
